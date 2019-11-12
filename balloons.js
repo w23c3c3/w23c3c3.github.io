@@ -6,7 +6,7 @@ var canvas = document.getElementById("balloons"),
     canvasWidth,
     canvasHeight,
     maxRadius = 40,
-    colorArray = ['#37CF52', '#3D5DC6', '#FF3D2E', '#DAEA4F'],
+    colorArray = ['#37CF52', '#3D5DC6', '#FF3D2E', '#DAEA4F', '#C342A5', '#53E2F7'],
     circleArray = [];
 var myCircle = new Circle(30,80,10);
 window.addEventListener("resize",resizeCanvas,false);
@@ -22,7 +22,7 @@ document.onmousemove = function(e) {
     mouseY = e.clientY;
 }
 function Circle(xCoordinate, yCoordinate, radius) {
-    var randomNumber = Math.floor((Math.random() * 4));
+    var randomNumber = Math.floor((Math.random() * 6));
     var randomTrueOrFalse = Math.floor(Math.random() * 2);
     var randomTrueOrFalseTwo = Math.floor(Math.random() * 2);
     this.xCoordinate = xCoordinate;
