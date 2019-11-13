@@ -30,14 +30,14 @@ function Circle(xCoordinate, yCoordinate, radius) {
     this.radius = radius;
     this.color = colorArray[randomNumber];
     if (randomTrueOrFalse == 1) {
-        this.xVelocity = -Math.random() * 2;
+        this.xVelocity = -Math.random() * 3;
     } else {
-        this.xVelocity = Math.random() * 2;
+        this.xVelocity = Math.random() * 3;
     }
     if (randomTrueOrFalse == 1) {
-        this.yVelocity = -Math.random() * 2;
+        this.yVelocity = -Math.random() * 3;
     } else {
-        this.yVelocity = Math.random() * 2;
+        this.yVelocity = Math.random() * 3;
     }
     this.update = function() {
         this.xCoordinate += this.xVelocity;
@@ -68,7 +68,7 @@ function Circle(xCoordinate, yCoordinate, radius) {
     }
 }
 function count(){
-    for (var i = 0; i < 4200; i++) {
+    for (var i = 0; i < 4800; i++) {
         var randomXCoordinate = Math.random() * canvasWidth;
         var randomYCoordinate = Math.random() * canvasHeight;
         var randomRadius = Math.random() * 6;
