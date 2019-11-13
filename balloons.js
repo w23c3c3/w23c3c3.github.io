@@ -22,7 +22,7 @@ document.onmousemove = function(e) {
     mouseY = e.clientY;
 }
 function Circle(xCoordinate, yCoordinate, radius) {
-    var randomNumber = Math.floor((Math.random() * 6));
+    var randomNumber = Math.floor((Math.random() * 8));
     var randomTrueOrFalse = Math.floor(Math.random() * 2);
     var randomTrueOrFalseTwo = Math.floor(Math.random() * 2);
     this.xCoordinate = xCoordinate;
