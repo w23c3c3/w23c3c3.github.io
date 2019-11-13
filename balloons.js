@@ -22,7 +22,7 @@ document.onmousemove = function(e) {
     mouseY = e.clientY;
 }
 function Circle(xCoordinate, yCoordinate, radius) {
-    var randomNumber = Math.floor((Math.random() * 8));
+    var randomNumber = Math.floor((Math.random() * 6));
     var randomTrueOrFalse = Math.floor(Math.random() * 2);
     var randomTrueOrFalseTwo = Math.floor(Math.random() * 2);
     this.xCoordinate = xCoordinate;
@@ -71,7 +71,7 @@ function count(){
     for (var i = 0; i < 4000; i++) {
         var randomXCoordinate = Math.random() * canvasWidth;
         var randomYCoordinate = Math.random() * canvasHeight;
-        var randomRadius = Math.random() * 6;
+        var randomRadius = Math.random() * 8;
         circleArray.push(new Circle(randomXCoordinate,randomYCoordinate ,randomRadius))
     }
 }
