@@ -34,7 +34,7 @@ function Circle(xCoordinate, yCoordinate, radius) {
     } else {
         this.xVelocity = Math.random() * 3;
     }
-    if (randomTrueOrFalse == 1) {
+    if (randomTrueOrFalseTwo == 1) {
         this.yVelocity = -Math.random() * 3;
     } else {
         this.yVelocity = Math.random() * 3;
