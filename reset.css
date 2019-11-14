@@ -19,5 +19,5 @@ button,input,select,textarea{font-size:100%;}
 table{border-collapse:collapse;border-spacing:0;}
 hr{border:none;height:1px;}
 html{overflow-y:scroll;}
-#balloons{opacity: 0.6; z-index: -1000; position: fixed;}
+#balloons{opacity: 0.6; z-index: 0; position: fixed;}
 *{color: white;}
