@@ -5,7 +5,7 @@ var canvas = document.getElementById("balloons"),
     mouseY,
     canvasWidth,
     canvasHeight,
-    maxRadius = 55,
+    maxRadius = 60,
     colorArray = ['#37CF52', '#3D5DC6', '#FF3D2E', '#DAEA4F', '#C342A5', '#53E2F7'],
     circleArray = [];
 var myCircle = new Circle(30,80,10);
@@ -51,11 +51,11 @@ function Circle(xCoordinate, yCoordinate, radius) {
         if (this.yCoordinate + this.radius > canvasHeight || this.yCoordinate - this.radius < 0) {
             this.yVelocity = - this.yVelocity;  
         };
-        if (xDistance < 60 && xDistance > -60 && this.radius < maxRadius && yDistance < 60 && yDistance > -60) {
-            this.radius += 3;
-        } else if ((xDistance >= 60 && originalRadius < this.radius) || (xDistance <= -60 && originalRadius < this.radius) || (yDistance >= 60 && originalRadius < this.radius) || (yDistance <= -60 && originalRadius < this.radius)) {
+        if (xDistance < 70 && xDistance > -70 && this.radius < maxRadius && yDistance < 70 && yDistance > -70) {
+            this.radius += 5;
+        } else if ((xDistance >= 70 && originalRadius < this.radius) || (xDistance <= -70 && originalRadius < this.radius) || (yDistance >= 70 && originalRadius < this.radius) || (yDistance <= -70 && originalRadius < this.radius)) {
             if (this.radius > 3) {
-                this.radius -= 3;
+                this.radius -= 5;
             } 
         };
         this.draw();
@@ -68,7 +68,7 @@ function Circle(xCoordinate, yCoordinate, radius) {
     }
 }
 function count(){
-    for (var i = 0; i < 4000; i++) {
+    for (var i = 0; i < 3600; i++) {
         var randomXCoordinate = Math.random() * canvasWidth;
         var randomYCoordinate = Math.random() * canvasHeight;
         var randomRadius = Math.random() * 8;
