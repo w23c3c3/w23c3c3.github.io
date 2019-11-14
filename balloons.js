@@ -54,7 +54,7 @@ function Circle(xCoordinate, yCoordinate, radius) {
         if (xDistance < 70 && xDistance > -70 && this.radius < maxRadius && yDistance < 70 && yDistance > -70) {
             this.radius += 5;
         } else if ((xDistance >= 70 && originalRadius < this.radius) || (xDistance <= -70 && originalRadius < this.radius) || (yDistance >= 70 && originalRadius < this.radius) || (yDistance <= -70 && originalRadius < this.radius)) {
-            if (this.radius > 3) {
+            if (this.radius > 5) {
                 this.radius -= 5;
             } 
         };
