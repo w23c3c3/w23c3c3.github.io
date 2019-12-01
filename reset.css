@@ -22,3 +22,7 @@ html{overflow-y:scroll;}
 #balloons{opacity: 0.6; z-index: -1000; position: fixed;}
 *{color: white;font-family: arial;}
 body{background-color: black;}
+footer{height: 45px;text-align: center;font-size: 23px;font-weight: 700;position: fixed;bottom: 10px;left: 0;right: 0;}
+footer span a{color: deepskyblue;font-weight: 800;}
+article{margin-bottom: 60px;}
+span{display: block;}

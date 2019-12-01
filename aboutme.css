@@ -6,20 +6,11 @@
 .head{
     font-size: 40px;
 }
-.article{
+article{
     font-size: 30px;
     text-align: center;
 }
 .span1{
     display: block;
-}
-.footer{
-    height: 100px;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 700;
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    right: 0;
+    line-height: 1.3em;
 }
