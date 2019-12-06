@@ -231,6 +231,7 @@ GameManager.prototype.move = function(a) {
                 }
             })
         });
+        this.prepareTiles();
         h && (this.addRandomTile(), this.movesAvailable() || (this.over = !0), this.actuate());
     }
 };
