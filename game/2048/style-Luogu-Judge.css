@@ -3,8 +3,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background: #faf8ef;
-    color: #776e65;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px;
 }
@@ -67,9 +65,9 @@ h1.title {
 
 .score-container,
 .best-container {
+    border: white 1px solid;
     position: relative;
     display: inline-block;
-    background: #bbada0;
     padding: 15px 25px;
     font-size: 25px;
     height: 25px;
@@ -127,7 +125,6 @@ p {
 }
 
 a {
-    color: #776e65;
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
@@ -177,6 +174,7 @@ hr {
 }
 
 .game-container {
+    border: white 1px solid;
     margin-top: 40px;
     position: relative;
     padding: 15px;
@@ -188,7 +186,6 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
     border-radius: 6px;
     width: 500px;
     height: 500px;
@@ -661,8 +658,7 @@ hr {
 }
 
 .restart-button {
-    display: inline-block;
-    background: #8f7a66;
+    border: white 1px solid;
     border-radius: 3px;
     padding: 0 20px;
     text-decoration: none;
@@ -705,6 +701,7 @@ hr {
         margin-bottom: 10px;
     }
     .game-intro {
+        
         width: 55%;
         display: block;
         box-sizing: border-box;
