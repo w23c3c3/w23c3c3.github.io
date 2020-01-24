@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    font-weight: 700;
+    padding: 100px 0;
+}
+.head{
+    font-size: 40px;
+}
+article{
+    font-size: 30px;
+    text-align: center;
+}
+.span1{
+    display: block;
+    line-height: 1.3em;
+}

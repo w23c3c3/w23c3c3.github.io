@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>2147483648</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="meta-2147483648/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="https://w23c3c3.github.io/head.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="https://w23c3c3.github.io/reset.css">
+    <link rel="stylesheet" href="style-2147483648.css">
+</head>
+
+<body>
+    <canvas id="balloons"></canvas>
+    <script src="https://w23c3c3.github.io/balloons.js"></script>
+    <div class="container">
+        <div class="heading">
+            <h1 class="title">2147483648</h1>
+            <div class="scores-container">
+                <div class="score-container">0</div>
+                <div class="best-container">0</div>
+            </div>
+        </div>
+        <p class="game-intro">Join the numbers and get to the <strong>2147483648 tile!</strong></p>
+
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="retry-button">再来一次</a>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+
+            <div class="tile-container" id="tile-container">
+
+            </div>
+        </div>
+
+        <hr>
+        <p>
+            <button type="button" onclick="auto();">自动玩，AI哦</button>
+        </p>
+        <p>
+            <button type="button" onclick="swing();">摆动</button>
+        </p>
+        <p>
+            <button type="button" onclick="swirl(0);">旋转</button>
+        </p>
+        <p>
+            <button type="button" onclick="random();">随机</button>
+        </p>
+        <hr>
+        <p class="game-explanation">
+            <strong class="important">怎么玩:</strong> 使用你的 <strong>任意键</strong> ，两个相同的数字会进行加法。
+        </p>
+        <hr>
+        <p>
+            <button type="button" onclick="bigInteger();">超大数字升级版</button><br/>
+        </p>
+    </div>
+
+    <script src="js-2147483648/animframe_polyfill.js"></script>
+    <script src="js-2147483648/keyboard_input_manager.js"></script>
+    <script src="js-2147483648/html_actuator.js"></script>
+    <script src="js-2147483648/grid.js"></script>
+    <script src="js-2147483648/tile.js"></script>
+    <script src="js-2147483648/local_score_manager.js"></script>
+    <script src="js-2147483648/game_manager.js"></script>
+    <script src="js-2147483648/application.js"></script>
+</body>
+
+</html>
