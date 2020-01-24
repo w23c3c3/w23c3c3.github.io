@@ -147,7 +147,7 @@ hr {
 
 .container {
     width: 500px;
-    margin: 0 auto;
+    margin: 70px auto 0;
 }
 
 @-webkit-keyframes fade-in {
@@ -621,6 +621,7 @@ hr {
         transform: scale(1);
     }
 }
+
 .tile-merged .tile-inner {
     z-index: 20;
     -webkit-animation: pop 200ms ease 100ms;
