@@ -68,7 +68,7 @@ function Circle(xCoordinate, yCoordinate, radius) {
     }
 }
 function count(){
-    for (var i = 0; i < 900; i++) {
+    for (var i = 0; i < 1500; i++) {
         var randomXCoordinate = Math.random() * canvasWidth;
         var randomYCoordinate = Math.random() * canvasHeight;
         var randomRadius = Math.random() * 8;
