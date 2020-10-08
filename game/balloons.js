@@ -52,10 +52,10 @@ function Circle(xCoordinate, yCoordinate, radius) {
             this.yVelocity = - this.yVelocity;  
         };
         if (xDistance < 70 && xDistance > -70 && this.radius < maxRadius && yDistance < 70 && yDistance > -70) {
-            this.radius += 3;
+            this.radius += 5;
         } else if ((xDistance >= 70 && originalRadius < this.radius) || (xDistance <= -70 && originalRadius < this.radius) || (yDistance >= 70 && originalRadius < this.radius) || (yDistance <= -70 && originalRadius < this.radius)) {
-            if (this.radius > 3) {
-                this.radius -= 3;
+            if (this.radius > 5) {
+                this.radius -= 5;
             } 
         };
         this.draw();
@@ -68,7 +68,7 @@ function Circle(xCoordinate, yCoordinate, radius) {
     }
 }
 function count(){
-    for (var i = 0; i < 1200; i++) {
+    for (var i = 0; i < 1500; i++) {
         var randomXCoordinate = Math.random() * canvasWidth;
         var randomYCoordinate = Math.random() * canvasHeight;
         var randomRadius = Math.random() * 8;

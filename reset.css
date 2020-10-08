@@ -1,12 +1,10 @@
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,
 th,td{margin:0;padding:0;}
-body,button,input,select,textarea{font:12px/1 Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;}
 h1{font-size:18px;}
 h2{font-size:16px;}
 h3{font-size:14px;}
 h4,h5,h6{font-size:100%;}
 address,cite,dfn,em,var{font-style:normal;}
-code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace;}
 small{font-size:12px;}
 ul,ol{list-style:none;}
 a{text-decoration:none;}
@@ -19,9 +17,39 @@ button,input,select,textarea{font-size:100%;}
 table{border-collapse:collapse;border-spacing:0;}
 hr{border:none;height:1px;}
 html{overflow-y:scroll;}
-#balloons{opacity: 0.6; z-index: -1000; position: fixed;}
-*{color: white;font-family: arial;}
-footer{height: 45px;text-align: center;font-size: 23px;font-weight: 700;position: fixed;bottom: 10px;left: 0;right: 0;}
-footer span a{color: deepskyblue;font-weight: 800;}
-article{margin-bottom: 60px;}
-span{display: block;}
+#balloons{opacity: 0.3; z-index: -1000; position: fixed;}
+*{font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", "Noto Sans", "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "PingFang SC", "Segoe UI", "Microsoft YaHei", sans-serif;}
+footer{height: 60px;text-align: center;font-size: 21px;position: fixed;left: 0;right: 0;bottom: 0;background-color: rgba(255, 255, 255, 1);}
+footer span a{color: deepskyblue;}
+article{margin-bottom: 65px;margin-left: 60px;}
+.gototop{position: fixed;bottom: 5px;right: 5px;height: 45px;width: 45px;}
+.img-gototop{height: 24px;}
+.left-board{
+    width: 65px;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+.box{
+    width: 65px;
+    font-weight: 700;
+    text-align: center;
+    height: 100px;
+}
+.boxa{
+    color: rgb(110, 173, 194);
+}
+.boxb{
+    text-align: center;
+    bottom: 10px;
+    position: relative;
+}
+.icon{
+    height: 65px;
+}
+#Gamestretch{
+    display: none;
+    position: relative;
+    bottom: 20px;
+    left: 65px;
+}
