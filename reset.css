@@ -30,6 +30,7 @@ article{margin-bottom: 65px;margin-left: 60px;}
     position: fixed;
     background-color: rgba(255, 255, 255, 1);
     font-size: 13px;
+    z-index: 150;
 }
 .box{
     width: 60px;
@@ -50,6 +51,7 @@ article{margin-bottom: 65px;margin-left: 60px;}
 }
 #gitalk-container{
     margin-bottom: 80px;
+    margin-left: 65px;
 }
 #Gamestretch{
     display: none;
