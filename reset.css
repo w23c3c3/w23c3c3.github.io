@@ -32,7 +32,7 @@ article{margin-bottom: 65px;margin-left: 60px;}
     font-size: 13px;
 }
 .box{
-    width: 65px;
+    width: 60px;
     font-weight: 700;
     text-align: center;
     height: 100px;
@@ -46,7 +46,7 @@ article{margin-bottom: 65px;margin-left: 60px;}
     position: relative;
 }
 .icon{
-    height: 65px;
+    height: 60px;
 }
 #gitalk-container{
     margin-bottom: 80px;
