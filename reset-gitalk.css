@@ -1,0 +1,6 @@
+.gt-container .gt-comment-admin .gt-comment-content {
+    background-color: rgba(0,0,0,0);
+}
+.gt-container :hover{
+    background-color: rgba(0,0,0,0.8);
+}
