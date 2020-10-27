@@ -21,7 +21,7 @@ html{overflow-y:scroll;}
 *{font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", "Noto Sans", "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "PingFang SC", "Segoe UI", "Microsoft YaHei", sans-serif;}
 footer{height: 60px;text-align: center;font-size: 21px;position: fixed;bottom: 0;left: 0;right: 0;z-index: 100;background-color: rgba(255, 255, 255, 1);}
 footer span a{color: deepskyblue;}
-article{margin-bottom: 65px;margin-left: 70px;}
+article{margin-bottom: 100px;margin-left: 70px;}
 .gototop{position: fixed;bottom: 5px;right: 5px;height: 45px;width: 45px;z-index: 100;}
 .img-gototop{height: 24px;}
 .left-board{
@@ -46,4 +46,9 @@ article{margin-bottom: 65px;margin-left: 70px;}
     font-family: monospace;
     font-weight: 900;
     color: rgb(59, 159, 192);
+}
+#gitalk-container{
+    margin-left: 70px;
+    position: relative;
+    bottom: 60px;
 }
