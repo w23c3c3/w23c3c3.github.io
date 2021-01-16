@@ -32,7 +32,7 @@ article{margin-bottom: 100px;margin-left: 70px;}
 }
 .left{
     display: block;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .en-box{
     height: 63px;

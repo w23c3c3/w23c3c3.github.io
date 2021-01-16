@@ -99,6 +99,8 @@ HTMLActuator.prototype.addTile = function(a) {
     2048 < a.value && f.push("tile-super");
     this.applyClasses(c, f);
     d.classList.add("tile-inner");
+    d.classList.add("skc-ak-ioi")
+    d.id=("tile-"+a.x+"-"+a.y);
     d.textContent = a.value;
     a.previousPosition ? window.requestAnimationFrame(function() { f[2] = b.positionClass({ x: a.x, y: a.y });
             b.applyClasses(c, f) }) : a.mergedFrom ? (f.push("tile-merged"), this.applyClasses(c, f), a.mergedFrom.forEach(function(a) { b.addTile(a) })) :

@@ -1,0 +1,29 @@
+.down2048{
+    margin-top: 80px;
+}
+.down2048-div1{
+    text-align: center;
+}
+.down2048-div{
+    text-align: center;
+}
+.down2048-a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    float: left;
+    margin-right: 50px;
+}
+.down2048-a:visited{
+    color: black;
+    text-decoration: none;
+}
+.down2048-span{
+    font-size: 30px;
+    color: black;
+    display: block;
+}
+.down2048-img{
+    height: 200px;
+    width: 200px;
+}

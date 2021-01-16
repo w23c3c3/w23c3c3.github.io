@@ -26,6 +26,7 @@ h1.title {
 }
 
 h1.title a {
+    color: black;
     text-decoration: none;
 }
 
@@ -69,7 +70,6 @@ h1.title a {
 
 .score-container,
 .best-container {
-    border: white 1px solid;
     position: relative;
     display: inline-block;
     padding: 15px 25px;
@@ -78,7 +78,6 @@ h1.title a {
     line-height: 47px;
     font-weight: bold;
     border-radius: 3px;
-    color: white;
     margin-top: 8px;
     text-align: center;
 }
@@ -93,7 +92,7 @@ h1.title a {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da;
+    color: black;
 }
 
 .score-container .score-addition,
@@ -178,7 +177,6 @@ hr {
 }
 
 .game-container {
-    border: white 1px solid;
     margin-top: 40px;
     position: relative;
     padding: 15px;
@@ -199,7 +197,7 @@ hr {
 }
 
 .game-container .game-message {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: white;
     display: none;
     position: absolute;
     top: 0;
@@ -234,7 +232,7 @@ hr {
     border-radius: 3px;
     padding: 0 20px;
     text-decoration: none;
-    color: #f9f6f2;
+    color: black;
     height: 40px;
     line-height: 42px;
     margin-left: 9px;
@@ -242,23 +240,19 @@ hr {
 
 .game-container .game-message a.keep-playing-button {
     display: none;
-    border: white 1px solid;
 }
 
 .game-container .game-message.game-won {
-    color: #f9f6f2;
-    border: white 1px solid;
+    color: black;
 }
 
 .game-container .game-message.game-won a.keep-playing-button {
     display: inline-block;
-    border: white 1px solid;
 }
 
 .game-container .game-message.game-won,
 .game-container .game-message.game-over {
     display: block;
-    border: white 1px solid;
 }
 
 .grid-container {
@@ -401,7 +395,6 @@ hr {
 }
 
 .tile {
-    background-color: black;
     position: absolute;
     -webkit-transition: 100ms ease-in-out;
     -moz-transition: 100ms ease-in-out;
@@ -421,30 +414,36 @@ hr {
 
 .tile.tile-2 .tile-inner {
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-color: white;
 }
 
 .tile.tile-4 .tile-inner {
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-color: white;
 }
 
 .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
+    color: black;
+    background-color: white;
 }
 
 .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
+    color: black;
+    background-color: white;
 }
 
 .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
+    color: black;
+    background-color: white;
 }
 
 .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
+    color: black;
+    background-color: white;
 }
 
 .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
+    color: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px;
 }
@@ -452,65 +451,76 @@ hr {
 @media screen and (max-width: 520px) {
     .tile.tile-128 .tile-inner {
         font-size: 25px;
+        background-color: white;
     }
 }
 
 .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
+    color: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px;
+    background-color: white;
 }
 
 @media screen and (max-width: 520px) {
     .tile.tile-256 .tile-inner {
         font-size: 25px;
+        background-color: white;
     }
 }
 
 .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
+    color: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px;
+    background-color: white;
 }
 
 @media screen and (max-width: 520px) {
     .tile.tile-512 .tile-inner {
         font-size: 25px;
+        background-color: white;
     }
 }
 
 .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
+    color: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px;
+    background-color: white;
 }
 
 @media screen and (max-width: 520px) {
     .tile.tile-1024 .tile-inner {
         font-size: 15px;
+        background-color: white;
     }
 }
 
 .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
+    color: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px;
+    background-color: white;
 }
 
 @media screen and (max-width: 520px) {
     .tile.tile-2048 .tile-inner {
         font-size: 15px;
+        background-color: white;
     }
 }
 
 .tile.tile-super .tile-inner {
-    color: #f9f6f2;
+    color: black;
     font-size: 30px;
+    background-color: white;
 }
 
 @media screen and (max-width: 520px) {
     .tile.tile-super .tile-inner {
         font-size: 10px;
+        background-color: white;
     }
 }
 
@@ -646,10 +656,9 @@ hr {
 
 .restart-button {
     border-radius: 3px;
-    border: white 1px solid;
     padding: 0 20px;
     text-decoration: none;
-    color: #f9f6f2;
+    color: black;
     height: 40px;
     line-height: 42px;
     display: block;
@@ -751,7 +760,7 @@ hr {
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
-        color: #f9f6f2;
+        color: black;
         height: 40px;
         line-height: 42px;
         margin-left: 9px;
@@ -760,7 +769,7 @@ hr {
         display: none;
     }
     .game-container .game-message.game-won {
-        color: #f9f6f2;
+        color: black;
     }
     .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block;
@@ -918,7 +927,6 @@ hr {
     border-radius: 6px;
     padding: 12px;
     text-decoration: none;
-    color: white;
 }
 
 .play-now a:hover {
@@ -955,12 +963,10 @@ p {
 
 .side-column-left {
     left: 0;
-    border-right: 1px solid white;
 }
 
 .side-column-right {
     right: 0;
-    border-left: 1px solid white;
 }
 
 .side-ad {
@@ -1159,13 +1165,13 @@ h1.title-internal {
 
 .shop-learn-more {
     padding: 10px 0px;
-    border: 1px solid #d8d4d0;
+    border: 1px solid black;
     text-align: center;
     display: block;
 }
 
 .shop-learn-more:hover {
-    background-color: #d8d4d0;
+    background-color: #000000;
 }
 
 .tips-and-tricks {
@@ -1176,7 +1182,7 @@ h1.title-internal {
     margin-bottom: 10px;
     margin-right: 10px;
     float: left;
-    border: 1px solid #d8d4d0;
+    border: 1px solid #000000;
 }
 
 .tips-and-tricks li a {
@@ -1187,7 +1193,7 @@ h1.title-internal {
 }
 
 .tips-and-tricks li a:hover {
-    background-color: #d8d4d0;
+    background-color: #000;
 }
 
 .tips-and-tricks li.even {
@@ -1230,7 +1236,7 @@ footer {
 }
 
 #flappy-thirds-wrapper canvas {
-    border: 1px solid #d8d4d0;
+    border: 1px solid #000;
 }
 
 .choose-language,
@@ -1263,7 +1269,7 @@ footer {
     position: relative;
     display: none;
     margin-bottom: 15px;
-    color: #f9f6f2;
+    color: black;
 }
 
 .mobile-top .open {
@@ -1280,14 +1286,12 @@ footer {
     width: 320px;
     height: 100px;
     margin: 0 auto;
-    background-color: white;
 }
 
 .mobile-top .close-btn {
     position: absolute;
     top: 5px;
     right: 10px;
-    color: white;
     text-decoration: none;
 }
 
@@ -1394,7 +1398,7 @@ footer {
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
-        color: #f9f6f2;
+        color: black;
         height: 40px;
         line-height: 42px;
         margin-left: 9px;
@@ -1403,7 +1407,7 @@ footer {
         display: none;
     }
     .game-container .game-message.game-won {
-        color: #f9f6f2;
+        color: black;
     }
     .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block;
@@ -1536,10 +1540,12 @@ footer {
     .tile-256 .tile-inner,
     .tile-512 .tile-inner {
         font-size: 43px !important;
+        background-color: white;
     }
     .tile-1024 .tile-inner,
     .tile-2048 .tile-inner {
         font-size: 33px !important;
+        background-color: white;
     }
     .game-intro {
         font-size: 17px;
